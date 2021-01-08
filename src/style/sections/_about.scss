@@ -1,3 +1,55 @@
+
+#skills {
+  padding: 50px 15px;
+  text-align: center;
+
+  h2 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 1.8rem;
+    font-size: $mid-font-size;
+  }
+
+  ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: white;
+    background: darken($primary-color, 1%);
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+    border-radius: 10px;
+  }
+}
+
+.heading {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+
+  &:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 1px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: $primary-color;
+  }
+}
+
 #about {
   background-color: $primary-color;
   background-image: linear-gradient(
